@@ -9,9 +9,14 @@ public class Animal {
         toFly= new CanFly();
     }
 
-    public void setFlys(Flys newFly){
-        toFly = newFly;
+    public void setCanFly(){
+        toFly = new CanFly();
     }
+
+    public void setCantFly(){
+        toFly = new CantFly();
+    }
+
     public void showFlyAbility(){
         System.out.print(animalName+" ");
         toFly.Fly();

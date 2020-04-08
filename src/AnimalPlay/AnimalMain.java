@@ -9,7 +9,7 @@ public class AnimalMain {
         Animal Max= new Dog("Max");
         twetty.showFlyAbility();
         Max.showFlyAbility();
-        twetty.setFlys(new CantFly());
+        twetty.setCantFly();
         twetty.showFlyAbility();
     }
 }

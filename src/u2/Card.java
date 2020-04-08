@@ -14,6 +14,6 @@ public class Card extends SoundCard {
 
     @Override
     void playFile(String fileName) {
-        System.out.println("Playing " + fileName + "...");
+        System.out.println("Playing " + fileName + " ...");
     }
 }
