@@ -6,7 +6,8 @@ import java.util.Vector;
  * It should use Vector as attribute
  */
 public class Stack<T> {
-   private Vector<T> vector;
+   // compisition att ha ett attribute
+    private Vector<T> vector;
 
     public Stack() {
         this.vector = new Vector<>();
